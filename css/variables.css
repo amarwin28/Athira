@@ -1,0 +1,98 @@
+/* ==========================
+   Google Fonts
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+/* ==========================
+   Root Variables
+========================== */
+
+:root{
+
+    /* Main Colors */
+    --primary:#A56C8D;
+    --secondary:#2A1B2E;
+    --accent:#D4A5B5;
+    --dark:#0F0F10;
+    --light:#FFFFFF;
+    --text:#F5F5F5;
+
+    /* Backgrounds */
+    --bg:#121212;
+    --surface:#1C1C1C;
+    --glass:rgba(255,255,255,.05);
+
+    /* Shadows */
+    --shadow:0 10px 30px rgba(0,0,0,.10);
+    --hover-shadow:0 15px 40px rgba(0,0,0,.18);
+
+    /* Radius */
+    --radius:20px;
+
+    /* Transition */
+    --transition:.4s ease;
+
+    /* Fonts */
+    --heading:'Playfair Display', serif;
+    --body:'Poppins', sans-serif;
+
+}
+
+/* ==========================
+   Global Reset
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:linear-gradient(
+        135deg,
+        #0F0F10,
+        #17141A,
+        #241C24
+    );
+
+    color:var(--text);
+
+    font-family:var(--body);
+
+    overflow-x:hidden;
+
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+section{
+
+    padding:100px 10%;
+
+}
+
+.container{
+
+    width:100%;
+    max-width:1300px;
+    margin:auto;
+
+}

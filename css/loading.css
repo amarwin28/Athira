@@ -1,0 +1,83 @@
+/* ===============================
+   LOADER
+=============================== */
+
+#loader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#111;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+}
+
+.loader-content{
+
+    text-align:center;
+
+}
+
+.loader-logo{
+
+    width:120px;
+
+    animation:float 2s infinite ease-in-out;
+
+}
+
+#loader h1{
+
+    color:white;
+
+    margin-top:25px;
+
+    font-size:48px;
+
+    font-family:var(--heading);
+
+    opacity:0;
+
+}
+
+#loader p{
+
+    color:#ddd;
+
+    margin-top:12px;
+
+    opacity:0;
+
+    letter-spacing:3px;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
